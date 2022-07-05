@@ -3,7 +3,6 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +17,7 @@
                 <a class="navbar-brand text-info fw-bold" href="#">Learn with Tapu</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon hover-effect"></span>
                 </button>
                 <div class="collapse navbar-collapse text-center" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
@@ -32,7 +31,7 @@
                             <a class="nav-link" href="#">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
+                            <a class="nav-link" href="#">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
@@ -49,21 +48,21 @@
             </div>
         </div>
     </div>
-    <section style="background-color: rgba(214, 113, 113, 0.252);" class="text-center">
+    <section class="text-center mt-5">
         <h1>SERVICES</h1>
         <p>I am working with creativity.</p>
         <div class="container overflow-hidden">
             <div class="row gx-5">
                 <div class="col-lg-4 col-sm-4 col-xs-12">
                     <div class="shadow p-3 rounded">
-                        <img style="height: 94px; width:70px" src="images/web-design.png" alt="">
+                        <img style="height:70px; width:70px" src="images/services-images/web-design.png" alt="">
                         <h2>Web Design</h2>
                         <p>Web design refers to the design of websites that are displayed on the internet.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-4 col-xs-12 ">
+                <div class="col-lg-4 col-sm-4 col-xs-12">
                     <div class="shadow p-3 rounded">
-                        <i class="fa-brands fa-react fa-6x"></i>
+                        <img style="height:70px; width:70px" src="images/services-images/React.png" alt="">
                         <h2>React</h2>
                         <p>React is a declarative, efficient, and flexible JavaScript library for building user
                             interfaces.
@@ -72,7 +71,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-4 col-xs-12">
                     <div class="shadow p-3 rounded">
-                        <img style="height: 94px; width:70px" src="images/mern-stack.png" alt="">
+                        <img style="height:70px; width:70px" src="images/services-images/mern-stack.png" alt="">
                         <h2>MERN Stack</h2>
                         <p>MERN stands for MongoDB, Express, React, Node that make up
                          the stack.
@@ -81,6 +80,93 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="container mt-5">
+        <h1 class="text-center">PORTFOLIO</h1>
+        <p class="text-center">Here is my some project</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4 portfolio-handle-image">
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/portfolio-images/Online-Education.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Online-Education</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-around mb-4 mx-4">
+                    <button class="btn btn-success me-md-2" type="button">Live Demo</button>
+                    <button class="btn btn-danger" type="button">Code Link</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/portfolio-images/Virtual-Library.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Virtual Library</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-around mb-4 mx-4">
+                    <button class="btn btn-success me-md-2" type="button">Live Demo</button>
+                    <button class="btn btn-danger" type="button">Code Link</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/portfolio-images/Online-Hostel-Management.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Online Hostel Management</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-around mb-4 mx-4">
+                    <button class="btn btn-success me-md-2" type="button">Live Demo</button>
+                    <button class="btn btn-danger" type="button">Code Link</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4 portfolio-handle-image mt-2">
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/portfolio-images/Doctor-Appointment.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Doctor Appointment</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-around mb-4 mx-4">
+                    <button class="btn btn-success me-md-2" type="button">Live Demo</button>
+                    <button class="btn btn-danger" type="button">Code Link</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/portfolio-images/Ludo-Game.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ludo Game</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-around mb-4 mx-4">
+                    <button class="btn btn-success me-md-2" type="button">Live Demo</button>
+                    <button class="btn btn-danger" type="button">Code Link</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/portfolio-images/Chess-Game.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chess Game</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-around mb-4 mx-4">
+                    <button class="btn btn-success me-md-2" type="button">Live Demo</button>
+                    <button class="btn btn-danger" type="button">Code Link</button>
+                </div>
+              </div>
+            </div>
+          </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
